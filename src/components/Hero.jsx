@@ -48,7 +48,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex-col mt-5 ml-5">
-          <a
+          <a target="_blank"
             className="text-zinc-200 flex  justify-items-center gap-1 px-2 py-1 rounded-md mt-1 border-[1px] border-white border-t-0"
             href="https://drive.google.com/file/d/1FPZx80BfPsXuGlMu9uBfTpIc6BSCdPJ6/view?usp=drive_link"
           >
@@ -58,9 +58,9 @@ const Hero = () => {
             </span>
           </a>
           <div className="mt-5 flex gap-5">
-            <a className="text-white text-2xl hover:scale-110" href="https://github.com/krushnaKD"><FaGithub /></a>
-            <a className="text-white text-2xl hover:scale-110" href="https://x.com/krushna_KD1"><FaXTwitter /></a>
-            <a className="text-white text-2xl hover:scale-110" href="https://www.linkedin.com/feed/1"><FaLinkedin /></a>
+            <a target="_blank" className="text-white text-2xl hover:scale-110" href="https://github.com/krushnaKD"><FaGithub /></a>
+            <a target="_blank" className="text-white text-2xl hover:scale-110" href="https://x.com/krushna_KD1"><FaXTwitter /></a>
+            <a target="_blank" className="text-white text-2xl hover:scale-110" href="https://www.linkedin.com/feed/1"><FaLinkedin /></a>
           </div>
         </div>
       </div>
